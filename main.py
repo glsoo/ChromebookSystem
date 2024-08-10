@@ -1,7 +1,11 @@
-import time, tkinter, requests
-from tkinter import messagebox
+import time, tkinter
+from tkinter import *
 
-window = tkinter.Tk(className="Chromebook Management System")
-window.geometry("300x200")
-window.title("Chromebook Management System")
-window.mainloop()
+win = Tk()
+win.geometry("300x200")
+win.title("Chromebook Management System")
+
+
+
+win.mainloop()
+
