@@ -11,6 +11,10 @@ window_resolution = str(window_width)+"x"+str(window_height)
 win.geometry(window_resolution)
 win.title("Chromebook Management System")
 win.iconphoto(True, icon)
+label = Label(win, text="BMCCHS Chromebook Management System", font=("Arial", 16, "bold"), fg="black")
+
+# Pack the label into the window
+label.pack(pady=20)  # Add some padding to the top
 
 #start the Tk mainloop
 win.mainloop()
